@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Register</title>
 </head>
 <body>
     <div class="container">
-        <div class="form">
+        <div class="form sombra">
             <h2 class="form__title">Create an account</h2>
-            <div class="form__field">
-                <div class="form__field-label"></div>
-                <input type="text" class="form__input">
+            <div class="field">
+                <div class="field__label">Name</div>
+                <input type="text" class="field__input">
             </div>
-            <div class="form__field">
-                <div class="form__field-label"></div>
-                <input type="text" class="form__input">
+            <div class="field">
+                <div class="field__label">Email</div>
+                <input type="text" class="field__input">
             </div>
-            <div class="form__field">
-                <div class="form__field-label"></div>
-                <input type="text" class="form__input">
+            <div class="field">
+                <div class="field__label">Password</div>
+                <input type="password" class="field__input">
             </div>
-            <div class="form__field">
-                <div class="form__field-label"></div>
-                <input type="text" class="form__input">
+            <div class="field">
+                <div class="field__label">Confirm password</div>
+                <input type="password" class="field__input">
             </div>
-            <div class="form__field">
-                <div class="form__field-label"></div>
-                <input type="text" class="form__input">
+
+            <div class="field field--checkbox">
+                <input type="checkbox" class="field__checkbox">
+                <div class="field__label">I accept the <a href="#" class="field__link">Terms & Conditions</a></div>
             </div>
-            <button class="form__button" type="submit">Register</button>
+            <div class="field field--checkbox">
+                <input type="checkbox" class="field__checkbox">
+                <div class="field__label">I accept the <a href="#" class="field__link">Privacy Policy</a></div>
+            </div>
+
+            <button class="form__button sombra" type="submit">REGISTER</button>
         </div>
     </div>
 </body>
