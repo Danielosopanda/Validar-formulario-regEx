@@ -40,7 +40,6 @@ body {
     height: 900px;
     background: var(--primary-color-dark);
     transform: rotate(30deg);
-    /* z-index: -1; */
 }
 
 .form {
