@@ -93,6 +93,11 @@ body {
     font-size: 14px;
     border: 2px solid black;
     border-radius: 3px;
+    transition: 300ms ease border;
+}
+
+.field__input:focus {
+    border: 2px solid #03A9F4;
 }
 
 .field__input--success {
