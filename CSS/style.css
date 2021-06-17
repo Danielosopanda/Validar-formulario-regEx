@@ -39,7 +39,7 @@ body {
     width: 200%;
     height: 900px;
     background: var(--primary-color-dark);
-    transform: rotate(30deg);
+    transform: rotate(30deg);   
 }
 
 .form {
@@ -93,6 +93,14 @@ body {
     font-size: 14px;
     border: 2px solid black;
     border-radius: 3px;
+}
+
+.field__input--success {
+    border: 2px solid #4BB543;
+}
+
+.field__input--error {
+    border: 2px solid #cc0000;
 }
 
 .field__checkbox {
